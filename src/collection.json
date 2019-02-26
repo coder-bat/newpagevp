@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "np": {
+      "aliases": [
+        "npvp", "newPage", "NewPage"
+      ],
+      "factory": "./np",
+      "description": "Generates a new page with routing",
+      "schema": "./np/schema.json"
+    }
+  }
+}

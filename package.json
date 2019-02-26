@@ -1,0 +1,27 @@
+{
+  "name": "newpagevp",
+  "version": "1.9.0",
+  "description": "A scaffolding tool to create new page in ViPlate",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics",
+    "ViPlate",
+    "new page",
+    "scaffolding",
+    "angular-cli automations"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "devDependencies": {
+    "@angular-devkit/core": "^7.3.3",
+    "@angular-devkit/schematics": "^7.3.3",
+    "@types/jasmine": "^3.0.0",
+    "@types/node": "^8.0.31",
+    "jasmine": "^3.0.0",
+    "typescript": "~3.2.2"
+  }
+}
